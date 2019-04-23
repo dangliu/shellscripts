@@ -1,5 +1,5 @@
 #!/bin/bash
-#gunzip *.ibd.gz
+gunzip *.ibd.gz
 
 for chromosome in {1..22}; do
 cat RefinedIBD_RUN1.${chromosome}.ibd RefinedIBD_RUN2.${chromosome}.ibd RefinedIBD_RUN3.${chromosome}.ibd > Chr${chromosome}.123.ibd
