@@ -22,7 +22,7 @@ for chromosome in {1..22}; do
         --prune 10 \
         --main 30 \
         --states 500 \
-        --effective-size 14500 \
+        --effective-size 15000 \
         -O shapeitPhased${chromosome} \
         --output-log shapeitPhased${chromosome} \
         --thread 20
